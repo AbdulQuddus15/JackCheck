@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/5ed2de41-ec60-424a-b026-83ea9ea127b8>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 80157ead-1fa9-4b65-be72-b606a28bb8d2
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 80157ead-1fa9-4b65-be72-b606a28bb8d2
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e5fbb39a-6cc1-41f2-b56c-187cd11b87e4
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e5fbb39a-6cc1-41f2-b56c-187cd11b87e4>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 6f186fe8-a956-47cb-a1b5-ccb0cb78c6a7
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    accentColor: false
+    buttonHeightCm: false
+    paddingCm: false
+    panelHeightCm: false
+    panelWidthCm: false
+    textColor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - panelWidthCm: !<float> 25.000000
+      panelHeightCm: !<float> 18.000000
+      paddingCm: 1.200000
+      buttonHeightCm: !<float> 4.000000
+      textColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+      accentColor: !<Vec4> {x: 0.450000, y: 0.700000, z: 0.950000, w: 1.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">JackCheckPromptUI – inspection and summary card</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float panelWidthCm = 32 {"hint":"Card width in centimeters", "widget":"slider", "min":22, "max":32, "step":0.5}'
+    - '// @input float panelHeightCm = 24 {"hint":"Card height in centimeters", "widget":"slider", "min":16, "max":24, "step":0.5}'
+    - '// @input float paddingCm = 1.2 {"hint":"Inner padding in centimeters", "widget":"slider", "min":0.6, "max":2, "step":0.1}'
+    - '// @input float buttonHeightCm = 5 {"hint":"Pass, Issue, and Reset target height in centimeters", "widget":"slider", "min":3.5, "max":6, "step":0.5}'
+    - '// @input vec4 textColor = "{1,1,1,1}" {"hint":"Primary light text color", "widget":"color"}'
+    - '// @input vec4 accentColor = "{0.45,0.7,0.95,1}" {"hint":"Accent color for progress and component names", "widget":"color"}'
+    - '// @ui {"widget":"group_end"}'

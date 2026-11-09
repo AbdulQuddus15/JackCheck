@@ -1,0 +1,56 @@
+- !<AssetImportMetadata/9c2850c0-89bd-4bf8-b564-06317dc9cc0b>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 047a2407-ea54-4f4f-96b9-c8c607946fae
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 047a2407-ea54-4f4f-96b9-c8c607946fae
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> e00cabeb-7544-4614-91b7-ce3b53218549
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/e00cabeb-7544-4614-91b7-ce3b53218549>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 87fca38d-0a74-49ae-967d-96301b4e1621
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    heightCm: false
+    textColor: false
+    widthCm: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - widthCm: !<float> 18.000000
+      heightCm: !<float> 7.000000
+      textColor: !<Vec4> {x: 1.000000, y: 1.000000, z: 1.000000, w: 1.000000}
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">JackCheckTagUI – handle warning tag</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float widthCm = 20 {"hint":"Tag width in centimeters", "widget":"slider", "min":14, "max":24, "step":0.5}'
+    - '// @input float heightCm = 8 {"hint":"Tag height in centimeters", "widget":"slider", "min":5, "max":10, "step":0.5}'
+    - '// @input vec4 textColor = "{1,1,1,1}" {"hint":"Light warning text color", "widget":"color"}'
+    - '// @ui {"widget":"group_end"}'

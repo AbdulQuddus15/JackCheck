@@ -1,0 +1,730 @@
+{
+  "schema_version": 1,
+  "status": "completed",
+  "operation": "controlled_reconstruction",
+  "started_utc": "2026-11-02T18:55:10.852038+00:00",
+  "destination": "C:\\Users\\abdul\\OneDrive\\Documents\\JackCheck-Recovery-5.23.2",
+  "source_zip": {
+    "path": "C:\\Users\\abdul\\OneDrive\\Documents\\JackCheck\\BackUp\\5.23.2.26081320.zip",
+    "expected_sha256": "d4fd5e605dc1078d1ce38a0f648262deecbd5b1e8a1c4b22fc85b3037e6787dc",
+    "actual_sha256": "d4fd5e605dc1078d1ce38a0f648262deecbd5b1e8a1c4b22fc85b3037e6787dc",
+    "full_crc_verified": true,
+    "entry_count": 69,
+    "file_entry_count": 69,
+    "sha256_after": "d4fd5e605dc1078d1ce38a0f648262deecbd5b1e8a1c4b22fc85b3037e6787dc",
+    "full_crc_verified_after": true,
+    "unchanged": true
+  },
+  "current_project": {
+    "path": "C:\\Users\\abdul\\OneDrive\\Documents\\JackCheck",
+    "esproj": {
+      "path": "C:\\Users\\abdul\\OneDrive\\Documents\\JackCheck\\JackCheck.esproj",
+      "version": "5.24.1.26100516",
+      "sha256_before": "3c76f6105737e9724c7012e105d16d3dc91f798d8ffc87cd270f7bee525ae09e",
+      "length_before": 1204,
+      "sha256_after": "3c76f6105737e9724c7012e105d16d3dc91f798d8ffc87cd270f7bee525ae09e",
+      "version_after": "5.24.1.26100516",
+      "unchanged": true
+    },
+    "quarantine_manifest": {
+      "path": "C:\\Users\\abdul\\OneDrive\\Documents\\JackCheck\\devpost\\package-backup\\quarantine-manifest.json",
+      "sha256_before": "b3637bb14235194baa25bacc7439d9219a3b79b2f332c0788eb845e6484534a5",
+      "sha256_after": "b3637bb14235194baa25bacc7439d9219a3b79b2f332c0788eb845e6484534a5",
+      "unchanged": true
+    }
+  },
+  "backup_verification": {
+    "esproj_version_expected": "5.23.2.26081320",
+    "esproj_version_actual": "5.23.2.26081320",
+    "asset_files_expected": 58,
+    "asset_files_actual": 58,
+    "scripts_ts_expected": 14,
+    "scripts_ts_actual": 14,
+    "scripts_ts_meta_expected": 14,
+    "scripts_ts_meta_actual": 14,
+    "pallet_jack_glb": {
+      "path": "Assets/GeneratedMeshes/PalletJack.glb",
+      "expected_length": 2594784,
+      "actual_length": 2594784,
+      "expected_sha256": "a2646d4afe1e218dde04f2a40fe5b6ceaf0aebee809e44db2e01a373941015d2",
+      "actual_sha256": "a2646d4afe1e218dde04f2a40fe5b6ceaf0aebee809e44db2e01a373941015d2"
+    },
+    "verdict_txt_entries_found": [],
+    "bitmoji_compatibility_verdict_verified": true,
+    "bitmoji_note": "Gate A reassessment verified the backup descriptor as Bitmoji 3D 10.0.1 exported by Lens Studio 5.23.2 build 26081320; the earlier exclusion was due to missing Verdict.txt, not incompatibility.",
+    "bitmoji_gate_a_reassessment": {
+      "source_zip_path": "C:\\Users\\abdul\\OneDrive\\Documents\\JackCheck\\BackUp\\5.23.2.26081320.zip",
+      "source_zip_sha256": "d4fd5e605dc1078d1ce38a0f648262deecbd5b1e8a1c4b22fc85b3037e6787dc",
+      "source_zip_crc_verified": true,
+      "source_zip_file_entry_count": 69,
+      "asset_entry": "Packages/Bitmoji 3D.lsc",
+      "asset_length": 43798,
+      "asset_sha256": "d53c98a88e5156733eb64de8d62df462233159ea30d4887f2ce2bdc95f355c41",
+      "package_version": "10.0.1",
+      "studio_version": "5.23.2.26081320",
+      "backup_plugin_entries": [],
+      "lsc_plugin_entries": [],
+      "lsc_non_package_asset_entries": [],
+      "backup_modified": false
+    }
+  },
+  "planned_extraction": {
+    "file_count": 59,
+    "asset_file_count": 58,
+    "files": [
+      {
+        "path": "JackCheck.esproj",
+        "length": 1103,
+        "backup_sha256": "b894c14834673d69d471fc371418a6040dffeb0d1f1683fe21f8dd2cdd9b590f",
+        "actual_length": 1103,
+        "actual_sha256": "b894c14834673d69d471fc371418a6040dffeb0d1f1683fe21f8dd2cdd9b590f",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Device Camera Texture.deviceCameraTexture",
+        "length": 80,
+        "backup_sha256": "19719f617e73e571f75a31159081bd60cee37a05acb2c4a3189a72b1a4ff3166",
+        "actual_length": 80,
+        "actual_sha256": "19719f617e73e571f75a31159081bd60cee37a05acb2c4a3189a72b1a4ff3166",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Device Camera Texture.deviceCameraTexture.meta",
+        "length": 494,
+        "backup_sha256": "1fca77753c5c9b587234e4047dd9cdb797d1238503a89db1e5d496e6cf70a0e7",
+        "actual_length": 494,
+        "actual_sha256": "1fca77753c5c9b587234e4047dd9cdb797d1238503a89db1e5d496e6cf70a0e7",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Echopark.hdr",
+        "length": 1495252,
+        "backup_sha256": "7f718a37e096b94af7cd15a6c6142e7ec0386887b756b9cdced63f1fc71b38d4",
+        "actual_length": 1495252,
+        "actual_sha256": "7f718a37e096b94af7cd15a6c6142e7ec0386887b756b9cdced63f1fc71b38d4",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Echopark.hdr.meta",
+        "length": 632,
+        "backup_sha256": "f4ce95c6c8eb0664fafca16242b5aea815772dbcdbc9e60bac5ca0f4d3584126",
+        "actual_length": 632,
+        "actual_sha256": "f4ce95c6c8eb0664fafca16242b5aea815772dbcdbc9e60bac5ca0f4d3584126",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/GeneratedMeshes/PalletJack.glb",
+        "length": 2594784,
+        "backup_sha256": "a2646d4afe1e218dde04f2a40fe5b6ceaf0aebee809e44db2e01a373941015d2",
+        "actual_length": 2594784,
+        "actual_sha256": "a2646d4afe1e218dde04f2a40fe5b6ceaf0aebee809e44db2e01a373941015d2",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/GeneratedMeshes/PalletJack.glb.meta",
+        "length": 4654,
+        "backup_sha256": "fab20f3eb8346ed8f84723b4bb75b9aff3ab5ed72b96bc97b5a0dc81e638edee",
+        "actual_length": 4654,
+        "actual_sha256": "fab20f3eb8346ed8f84723b4bb75b9aff3ab5ed72b96bc97b5a0dc81e638edee",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Icons/check.png",
+        "length": 10739,
+        "backup_sha256": "5e64c3cfcacc25c767ceed61abca36cabf31edb477c95bc53769d8fb6674e28f",
+        "actual_length": 10739,
+        "actual_sha256": "5e64c3cfcacc25c767ceed61abca36cabf31edb477c95bc53769d8fb6674e28f",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Icons/check.png.meta",
+        "length": 512,
+        "backup_sha256": "6c7237f72a15b311e001761a401dd1e481e600b131be2ea7c3d069c1b7d94137",
+        "actual_length": 512,
+        "actual_sha256": "6c7237f72a15b311e001761a401dd1e481e600b131be2ea7c3d069c1b7d94137",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Icons/refresh.png",
+        "length": 16975,
+        "backup_sha256": "e2df01314097225db6ebb4e92937e25eaea140ec87513c589c3ae2b1dbecd77d",
+        "actual_length": 16975,
+        "actual_sha256": "e2df01314097225db6ebb4e92937e25eaea140ec87513c589c3ae2b1dbecd77d",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Icons/refresh.png.meta",
+        "length": 512,
+        "backup_sha256": "744563663f1c8dda0e71179656ad87dbf8c1ea9e1ed86726d3f88f0e3bf6f533",
+        "actual_length": 512,
+        "actual_sha256": "744563663f1c8dda0e71179656ad87dbf8c1ea9e1ed86726d3f88f0e3bf6f533",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Icons/warning 2.png",
+        "length": 15173,
+        "backup_sha256": "09e1b5ff9e8c5f928f5b52f06dcd158dbc95a4fecaae58d55aae46a1d8ea2d7e",
+        "actual_length": 15173,
+        "actual_sha256": "09e1b5ff9e8c5f928f5b52f06dcd158dbc95a4fecaae58d55aae46a1d8ea2d7e",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Icons/warning 2.png.meta",
+        "length": 512,
+        "backup_sha256": "4f8dcfa34348d032690a2892874a93010fb9c0087f002c833680d5a19da1dd49",
+        "actual_length": 512,
+        "actual_sha256": "4f8dcfa34348d032690a2892874a93010fb9c0087f002c833680d5a19da1dd49",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Icons/warning.png",
+        "length": 15173,
+        "backup_sha256": "09e1b5ff9e8c5f928f5b52f06dcd158dbc95a4fecaae58d55aae46a1d8ea2d7e",
+        "actual_length": 15173,
+        "actual_sha256": "09e1b5ff9e8c5f928f5b52f06dcd158dbc95a4fecaae58d55aae46a1d8ea2d7e",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Icons/warning.png.meta",
+        "length": 512,
+        "backup_sha256": "8788bb5e63016fecceaa3d13c08bf7f9e258bbbc2ef726cb5ffcf2c19d9c7896",
+        "actual_length": 512,
+        "actual_sha256": "8788bb5e63016fecceaa3d13c08bf7f9e258bbbc2ef726cb5ffcf2c19d9c7896",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Materials/Image.png",
+        "length": 6363,
+        "backup_sha256": "f1acb4632dfb6321095d5d89cf6bc1809d0a7f22892617ff09fb95d483563e68",
+        "actual_length": 6363,
+        "actual_sha256": "f1acb4632dfb6321095d5d89cf6bc1809d0a7f22892617ff09fb95d483563e68",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Materials/Image.png.meta",
+        "length": 512,
+        "backup_sha256": "35b31e091e36e581288d5e04f897543ac92e619b8e5dd3fbf998f2cb896e7836",
+        "actual_length": 512,
+        "actual_sha256": "35b31e091e36e581288d5e04f897543ac92e619b8e5dd3fbf998f2cb896e7836",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Materials/ImageMaterial.mat",
+        "length": 3163,
+        "backup_sha256": "a275e30797581ed8b70789d24e98ecb7891dda83c362e6e5f7663686fd9dc295",
+        "actual_length": 3163,
+        "actual_sha256": "a275e30797581ed8b70789d24e98ecb7891dda83c362e6e5f7663686fd9dc295",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Materials/ImageMaterial.mat.meta",
+        "length": 484,
+        "backup_sha256": "4f0dbf75db7d42d9dcda27f2bd8d8b0758c1bfa8f26eb4d45ccb25ddad7fbfc8",
+        "actual_length": 484,
+        "actual_sha256": "4f0dbf75db7d42d9dcda27f2bd8d8b0758c1bfa8f26eb4d45ccb25ddad7fbfc8",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Materials/JackCheckMarkerMaterial.mat",
+        "length": 2751,
+        "backup_sha256": "888a903937731b24348dddb063db013f23c817ff47d10f9e41cb04303b16dc46",
+        "actual_length": 2751,
+        "actual_sha256": "888a903937731b24348dddb063db013f23c817ff47d10f9e41cb04303b16dc46",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Materials/JackCheckMarkerMaterial.mat.meta",
+        "length": 484,
+        "backup_sha256": "b810b3307c21e58549cf5d0b23003bcbc2719f0d36535f8ef7a96b7d74bf0724",
+        "actual_length": 484,
+        "actual_sha256": "b810b3307c21e58549cf5d0b23003bcbc2719f0d36535f8ef7a96b7d74bf0724",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Materials/flat.graphShader",
+        "length": 80773,
+        "backup_sha256": "d9b0a95206f3f64cb3338986d362e384500229195cf070649caae889feafea75",
+        "actual_length": 80773,
+        "actual_sha256": "d9b0a95206f3f64cb3338986d362e384500229195cf070649caae889feafea75",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Materials/flat.graphShader.meta",
+        "length": 551,
+        "backup_sha256": "58d1617a3b693338cf34b1e46e8cf85911a454277bfc4b4b1f0658191b70e982",
+        "actual_length": 551,
+        "actual_sha256": "58d1617a3b693338cf34b1e46e8cf85911a454277bfc4b4b1f0658191b70e982",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Materials/unlit.graphShader",
+        "length": 83759,
+        "backup_sha256": "67f3d68f7555a78f2eca5aa957b7ae6f79338d08602ff6fd9177f9f9ed9a9704",
+        "actual_length": 83759,
+        "actual_sha256": "67f3d68f7555a78f2eca5aa957b7ae6f79338d08602ff6fd9177f9f9ed9a9704",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Materials/unlit.graphShader.meta",
+        "length": 551,
+        "backup_sha256": "5d38636d344d44c05fba32de99fa7527a674dbb42a4c7dcde3123b15d7fa627c",
+        "actual_length": 551,
+        "actual_sha256": "5d38636d344d44c05fba32de99fa7527a674dbb42a4c7dcde3123b15d7fa627c",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Meshes/JackCheckMarkerSphere.mesh",
+        "length": 29304,
+        "backup_sha256": "ac922a3a53adbe0e9b20cf068bbf07976e62e46b1bc0b309d37a2ffbb2bd787d",
+        "actual_length": 29304,
+        "actual_sha256": "ac922a3a53adbe0e9b20cf068bbf07976e62e46b1bc0b309d37a2ffbb2bd787d",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Meshes/JackCheckMarkerSphere.mesh.meta",
+        "length": 582,
+        "backup_sha256": "d0fea887335144abe0c81b35e9271240a5b829cc8f03ddad2940cce15841efe4",
+        "actual_length": 582,
+        "actual_sha256": "d0fea887335144abe0c81b35e9271240a5b829cc8f03ddad2940cce15841efe4",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Render Target.renderTarget",
+        "length": 616,
+        "backup_sha256": "cb689fdf5c70267d37c154451418f914d54218d2737fccef15538e812cf1cab7",
+        "actual_length": 616,
+        "actual_sha256": "cb689fdf5c70267d37c154451418f914d54218d2737fccef15538e812cf1cab7",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Render Target.renderTarget.meta",
+        "length": 492,
+        "backup_sha256": "ca4985ece8b0f133ce82a20683bda1b2a06485c79fc40a9e6a4c69724e5ec8c0",
+        "actual_length": 492,
+        "actual_sha256": "ca4985ece8b0f133ce82a20683bda1b2a06485c79fc40a9e6a4c69724e5ec8c0",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scene.scene",
+        "length": 29059,
+        "backup_sha256": "25aadca3eaf3555a0c585afbab9c188e99a81798067f0df342fd55bdc9724b04",
+        "actual_length": 29059,
+        "actual_sha256": "25aadca3eaf3555a0c585afbab9c188e99a81798067f0df342fd55bdc9724b04",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scene.scene.meta",
+        "length": 478,
+        "backup_sha256": "9b68c8f9352811334c5d16ac6b801533596dc5d0d5d1c0ac5ab92fa928ebde0c",
+        "actual_length": 478,
+        "actual_sha256": "9b68c8f9352811334c5d16ac6b801533596dc5d0d5d1c0ac5ab92fa928ebde0c",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckAllPassScenario.ts",
+        "length": 1011,
+        "backup_sha256": "f3abd1d5fee38c0c9ef1cd13b471978336433428e872968ffe8cd57965ad07f9",
+        "actual_length": 1011,
+        "actual_sha256": "f3abd1d5fee38c0c9ef1cd13b471978336433428e872968ffe8cd57965ad07f9",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckAllPassScenario.ts.meta",
+        "length": 1219,
+        "backup_sha256": "7baf55d088f5419a961dae39eb73327741f8ad863efb7fe8b2ff4476644eb774",
+        "actual_length": 1219,
+        "actual_sha256": "7baf55d088f5419a961dae39eb73327741f8ad863efb7fe8b2ff4476644eb774",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckAssetManifest.ts",
+        "length": 680,
+        "backup_sha256": "a4c0fde453fbb29e9ffceb6b11d91d1b89740103c8457e135647265f44a364e1",
+        "actual_length": 680,
+        "actual_sha256": "a4c0fde453fbb29e9ffceb6b11d91d1b89740103c8457e135647265f44a364e1",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckAssetManifest.ts.meta",
+        "length": 1219,
+        "backup_sha256": "36b4830b226c6013e75e19c469244f3ae6860cd82161df834b32e3b100e46cb5",
+        "actual_length": 1219,
+        "actual_sha256": "36b4830b226c6013e75e19c469244f3ae6860cd82161df834b32e3b100e46cb5",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckIssueScenario.ts",
+        "length": 1427,
+        "backup_sha256": "40e12839673f13e57288caeb3651ac35f046753c36563e891e51dbacec887465",
+        "actual_length": 1427,
+        "actual_sha256": "40e12839673f13e57288caeb3651ac35f046753c36563e891e51dbacec887465",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckIssueScenario.ts.meta",
+        "length": 1219,
+        "backup_sha256": "771611fccd9c7bf2be38d56ea0f103e698c7e1105c82ae686a06449409907bf4",
+        "actual_length": 1219,
+        "actual_sha256": "771611fccd9c7bf2be38d56ea0f103e698c7e1105c82ae686a06449409907bf4",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckLaunchScenario.ts",
+        "length": 1469,
+        "backup_sha256": "c47e6cabde9f6cf82f67922ad463e49d6767a504f1742949bed89e929c721f73",
+        "actual_length": 1469,
+        "actual_sha256": "c47e6cabde9f6cf82f67922ad463e49d6767a504f1742949bed89e929c721f73",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckLaunchScenario.ts.meta",
+        "length": 1219,
+        "backup_sha256": "d86e639000a4f15d2f25b18903d71b3fb5b86ce011fb98a1a31a5f03c66b55d9",
+        "actual_length": 1219,
+        "actual_sha256": "d86e639000a4f15d2f25b18903d71b3fb5b86ce011fb98a1a31a5f03c66b55d9",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckLeafInteractor.ts",
+        "length": 569,
+        "backup_sha256": "103a1e774e420b06e48a1d0c8938c8469dd43c082b8d8f317f085ff9ccd1e57a",
+        "actual_length": 569,
+        "actual_sha256": "103a1e774e420b06e48a1d0c8938c8469dd43c082b8d8f317f085ff9ccd1e57a",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckLeafInteractor.ts.meta",
+        "length": 1219,
+        "backup_sha256": "d01e764aaaa99afa2931d96b937b711e35cc3c0bef5484ed0db21190e309cb1f",
+        "actual_length": 1219,
+        "actual_sha256": "d01e764aaaa99afa2931d96b937b711e35cc3c0bef5484ed0db21190e309cb1f",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckMain.ts",
+        "length": 6280,
+        "backup_sha256": "723373334a7991546099cac3a385f16aec9f4b47020228ed12553d9eebe2a569",
+        "actual_length": 6280,
+        "actual_sha256": "723373334a7991546099cac3a385f16aec9f4b47020228ed12553d9eebe2a569",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckMain.ts.meta",
+        "length": 1219,
+        "backup_sha256": "d3c7ab55988be4c9da3cee46a75b23f805f4ab6c5e03f1ae6e0c4e4f61b5a1b2",
+        "actual_length": 1219,
+        "actual_sha256": "d3c7ab55988be4c9da3cee46a75b23f805f4ab6c5e03f1ae6e0c4e4f61b5a1b2",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckMarkerController.ts",
+        "length": 2951,
+        "backup_sha256": "f9ff49b96392674c11e3e11c056f07a6edf76479a87ce9ddc5a7178fa69718c7",
+        "actual_length": 2951,
+        "actual_sha256": "f9ff49b96392674c11e3e11c056f07a6edf76479a87ce9ddc5a7178fa69718c7",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckMarkerController.ts.meta",
+        "length": 1219,
+        "backup_sha256": "590e5596cbcb10be531ddfa33e5ee0b5a7b1d39f49f1f60235e7005e129b4ba6",
+        "actual_length": 1219,
+        "actual_sha256": "590e5596cbcb10be531ddfa33e5ee0b5a7b1d39f49f1f60235e7005e129b4ba6",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckProgressionScenario.ts",
+        "length": 1664,
+        "backup_sha256": "574d97ff2d3eb80fc750d1b914990eea447e0ba0d8afd656b37a18516e156339",
+        "actual_length": 1664,
+        "actual_sha256": "574d97ff2d3eb80fc750d1b914990eea447e0ba0d8afd656b37a18516e156339",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckProgressionScenario.ts.meta",
+        "length": 1219,
+        "backup_sha256": "2cb812c5c953dcb64fc5d0b0295fcdec6e5e855eb5b431caf083b0af261d2ae9",
+        "actual_length": 1219,
+        "actual_sha256": "2cb812c5c953dcb64fc5d0b0295fcdec6e5e855eb5b431caf083b0af261d2ae9",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckPromptUI.ts",
+        "length": 10629,
+        "backup_sha256": "df2b220bf92caa8a637afd9283f89851408b627be3bfcc82610669cdc43394cd",
+        "actual_length": 10629,
+        "actual_sha256": "df2b220bf92caa8a637afd9283f89851408b627be3bfcc82610669cdc43394cd",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckPromptUI.ts.meta",
+        "length": 1219,
+        "backup_sha256": "a35d53e25e1de8b852a948f7f72d696045b44bd7b1ad87d07136580218e1cb04",
+        "actual_length": 1219,
+        "actual_sha256": "a35d53e25e1de8b852a948f7f72d696045b44bd7b1ad87d07136580218e1cb04",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckResetScenario.ts",
+        "length": 1016,
+        "backup_sha256": "3769569c734703bd16a6d78a8f72670ac1f8446ec9760fecedb6673632e6b04a",
+        "actual_length": 1016,
+        "actual_sha256": "3769569c734703bd16a6d78a8f72670ac1f8446ec9760fecedb6673632e6b04a",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckResetScenario.ts.meta",
+        "length": 1219,
+        "backup_sha256": "fe1e987ac9d6d2dd5bf8fbec28da49f9ed4477716e4820058659c0fe36b31bc9",
+        "actual_length": 1219,
+        "actual_sha256": "fe1e987ac9d6d2dd5bf8fbec28da49f9ed4477716e4820058659c0fe36b31bc9",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckScenarioClient.ts",
+        "length": 834,
+        "backup_sha256": "0505cbabb8313f1592af582261469310208c10dbaee7099a2420b2b0c5997f7f",
+        "actual_length": 834,
+        "actual_sha256": "0505cbabb8313f1592af582261469310208c10dbaee7099a2420b2b0c5997f7f",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckScenarioClient.ts.meta",
+        "length": 1219,
+        "backup_sha256": "8fcff34f24363be0ebeee8ac612a952c1b405780b425cf558a020772e3d6ad1f",
+        "actual_length": 1219,
+        "actual_sha256": "8fcff34f24363be0ebeee8ac612a952c1b405780b425cf558a020772e3d6ad1f",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckState.ts",
+        "length": 1737,
+        "backup_sha256": "7fc7d160acc3f3bbf7e07a4335a8ef33e801038b3b9e2b275bb7116fd4bb48a5",
+        "actual_length": 1737,
+        "actual_sha256": "7fc7d160acc3f3bbf7e07a4335a8ef33e801038b3b9e2b275bb7116fd4bb48a5",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckState.ts.meta",
+        "length": 1219,
+        "backup_sha256": "c28a75722dcdaa3a6c3e3ade0016467cc43c953a1e6304f34cc4cdcb783f44e2",
+        "actual_length": 1219,
+        "actual_sha256": "c28a75722dcdaa3a6c3e3ade0016467cc43c953a1e6304f34cc4cdcb783f44e2",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckTagUI.ts",
+        "length": 3813,
+        "backup_sha256": "e499a7134e38878f13f0a6ba0b6de37cc8303d875b71fd84ec0a6ef85f7d2138",
+        "actual_length": 3813,
+        "actual_sha256": "e499a7134e38878f13f0a6ba0b6de37cc8303d875b71fd84ec0a6ef85f7d2138",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/JackCheckTagUI.ts.meta",
+        "length": 1219,
+        "backup_sha256": "2279a5780e925c9e245a30145bafdd5b1935c4fb3c54ff9d8f8308c8b125d8b7",
+        "actual_length": 1219,
+        "actual_sha256": "2279a5780e925c9e245a30145bafdd5b1935c4fb3c54ff9d8f8308c8b125d8b7",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/LeafIndex.ts",
+        "length": 1099,
+        "backup_sha256": "9019f610e4d7ac0bf8453ab4d240daea135489627da22af85c414c43d43a153e",
+        "actual_length": 1099,
+        "actual_sha256": "9019f610e4d7ac0bf8453ab4d240daea135489627da22af85c414c43d43a153e",
+        "byte_identical_to_backup": true
+      },
+      {
+        "path": "Assets/Scripts/LeafIndex.ts.meta",
+        "length": 1219,
+        "backup_sha256": "cf5eafab283a11ae292ce6d23cddc05a06bdfed5b3958401693043c980337e5d",
+        "actual_length": 1219,
+        "actual_sha256": "cf5eafab283a11ae292ce6d23cddc05a06bdfed5b3958401693043c980337e5d",
+        "byte_identical_to_backup": true
+      }
+    ]
+  },
+  "documentation_copies": [
+    {
+      "path": "devpost/design-brief.md",
+      "source_path": "C:\\Users\\abdul\\OneDrive\\Documents\\JackCheck\\devpost\\design-brief.md",
+      "length": 7539,
+      "source_sha256": "93683e3dae481491485edfb9114a540a05e97e4cdc342f9e8a1a6d0e250812e7",
+      "expected_sha256": "93683e3dae481491485edfb9114a540a05e97e4cdc342f9e8a1a6d0e250812e7",
+      "actual_length": 7539,
+      "actual_sha256": "93683e3dae481491485edfb9114a540a05e97e4cdc342f9e8a1a6d0e250812e7",
+      "source_sha256_after": "93683e3dae481491485edfb9114a540a05e97e4cdc342f9e8a1a6d0e250812e7",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "devpost/shared-context.md",
+      "source_path": "C:\\Users\\abdul\\OneDrive\\Documents\\JackCheck\\devpost\\shared-context.md",
+      "length": 5116,
+      "source_sha256": "548c8e9611ad44f58d9a996cb486f440207c33246f25858e03bdb6f9afc04c51",
+      "expected_sha256": "548c8e9611ad44f58d9a996cb486f440207c33246f25858e03bdb6f9afc04c51",
+      "actual_length": 5116,
+      "actual_sha256": "548c8e9611ad44f58d9a996cb486f440207c33246f25858e03bdb6f9afc04c51",
+      "source_sha256_after": "548c8e9611ad44f58d9a996cb486f440207c33246f25858e03bdb6f9afc04c51",
+      "byte_identical_to_source": true
+    },
+    {
+      "path": "devpost/package-backup/quarantine-manifest.json",
+      "source_path": "C:\\Users\\abdul\\OneDrive\\Documents\\JackCheck\\devpost\\package-backup\\quarantine-manifest.json",
+      "length": 4184,
+      "source_sha256": "b3637bb14235194baa25bacc7439d9219a3b79b2f332c0788eb845e6484534a5",
+      "expected_sha256": "b3637bb14235194baa25bacc7439d9219a3b79b2f332c0788eb845e6484534a5",
+      "actual_length": 4184,
+      "actual_sha256": "b3637bb14235194baa25bacc7439d9219a3b79b2f332c0788eb845e6484534a5",
+      "source_sha256_after": "b3637bb14235194baa25bacc7439d9219a3b79b2f332c0788eb845e6484534a5",
+      "byte_identical_to_source": true
+    }
+  ],
+  "planned_empty_directories": [
+    "Packages/",
+    "Plugins/"
+  ],
+  "exclusions": {
+    "archive_files": [
+      {
+        "path": "Packages/Bitmoji 3D.lsc",
+        "length": 43798,
+        "backup_sha256": "d53c98a88e5156733eb64de8d62df462233159ea30d4887f2ce2bdc95f355c41",
+        "reason": "Backup Packages payload forbidden; Verdict.txt absent, so compatibility could not be verdict-verified despite descriptor-reported 10.0.1/5.23.2; backup Bitmoji not preserved."
+      },
+      {
+        "path": "Packages/Bitmoji 3D.lsc.meta",
+        "length": 444,
+        "backup_sha256": "17c04dd3d96973fa5a41baa7e06ec7583550f0a5e687fce7f693179b0871fd30",
+        "reason": "Backup Packages payload forbidden; Verdict.txt absent, so compatibility could not be verdict-verified despite descriptor-reported 10.0.1/5.23.2; backup Bitmoji not preserved."
+      },
+      {
+        "path": "Packages/Leaf.lspkg",
+        "length": 413844,
+        "backup_sha256": "c0e0a6a55ff2cf26301a4b41820b8fcf24eb6d15bc2efa9750a0054237e92922",
+        "reason": "Backup Packages and Leaf/LEAF 4.0.0 payload forbidden."
+      },
+      {
+        "path": "Packages/Leaf.lspkg.meta",
+        "length": 444,
+        "backup_sha256": "fb68a66deecf15b3ffa94fe75d53e56ed7e5271cd4c5ed6871b2eb4f7fcbfb92",
+        "reason": "Backup Packages and Leaf/LEAF 4.0.0 payload forbidden."
+      },
+      {
+        "path": "Packages/Motion.lspkg",
+        "length": 42836,
+        "backup_sha256": "b6e921e539524fda95cd6fe4860d48d9d99d08cc3adb5cba5bb576c42a646c31",
+        "reason": "Backup Packages and Motion 4.0.0 payload forbidden."
+      },
+      {
+        "path": "Packages/Motion.lspkg.meta",
+        "length": 444,
+        "backup_sha256": "c4f307865bf80c431326bf361e92ff87350484a4503d1f3894aeef32ab9ee8e0",
+        "reason": "Backup Packages and Motion 4.0.0 payload forbidden."
+      },
+      {
+        "path": "Packages/SpectaclesInteractionKit.lspkg",
+        "length": 1308126,
+        "backup_sha256": "fbb5a34883dd911d303c98c0a100e0753d9eeb1f9473ad19e21262601d991367",
+        "reason": "Backup Packages and SIK 4.0.0 payload forbidden."
+      },
+      {
+        "path": "Packages/SpectaclesInteractionKit.lspkg.meta",
+        "length": 444,
+        "backup_sha256": "4127ce7f73bb04bd47c1d96476c1fec923965b25a66f62c140eb1d9ec69f4ccd",
+        "reason": "Backup Packages and SIK 4.0.0 payload forbidden."
+      },
+      {
+        "path": "Packages/SpectaclesUIKit.lspkg",
+        "length": 2167481,
+        "backup_sha256": "5d6fa2ad096128b0a0e852d79073f38900885ff4d9a9f15fd067837ede4f0997",
+        "reason": "Backup Packages and UIKit 4.0.0 payload forbidden."
+      },
+      {
+        "path": "Packages/SpectaclesUIKit.lspkg.meta",
+        "length": 444,
+        "backup_sha256": "e59d85305542844e196366064aa273b8788d38e0e0e738659b10c16a57b0dfd5",
+        "reason": "Backup Packages and UIKit 4.0.0 payload forbidden."
+      }
+    ],
+    "rules": [
+      {
+        "scope": "All backup Packages/** payload",
+        "reason": "Forbidden; Packages/ must remain empty."
+      },
+      {
+        "scope": "All backup Plugins/** payload",
+        "reason": "Forbidden; Plugins/ must remain empty; no Plugins entries were present in backup."
+      },
+      {
+        "scope": "Cache/** and BackUp/**",
+        "reason": "Forbidden; not restored."
+      },
+      {
+        "scope": "Leaf/SIK/UIKit/Motion 4.0.0 and stale LEAF/IconAtlas payloads",
+        "reason": "Forbidden package/stale payloads excluded; mandated 58 Assets files, including Assets/Scripts/LeafIndex.ts and meta, are retained."
+      },
+      {
+        "scope": "Current project except three approved documents",
+        "reason": "Current 5.24 project remains isolated and unchanged."
+      },
+      {
+        "scope": "Current devpost/package-backup sibling payloads",
+        "reason": "Forbidden; only quarantine-manifest.json copied, no siblings."
+      }
+    ]
+  },
+  "verification": {
+    "status": "passed",
+    "recovered_esproj": {
+      "version": "5.23.2.26081320",
+      "length": 1103,
+      "sha256": "b894c14834673d69d471fc371418a6040dffeb0d1f1683fe21f8dd2cdd9b590f",
+      "byte_identical_to_backup": true
+    },
+    "all_backup_payload_bytes_verified": true,
+    "all_script_and_meta_bytes_verified": true,
+    "all_documents_bytes_verified": true,
+    "pallet_jack_glb": {
+      "length": 2594784,
+      "sha256": "a2646d4afe1e218dde04f2a40fe5b6ceaf0aebee809e44db2e01a373941015d2"
+    },
+    "exact_destination_file_set": true,
+    "exact_destination_directory_set": true,
+    "missing_files": [],
+    "unexpected_files": [],
+    "packages_empty": true,
+    "plugins_empty": true,
+    "excluded_backup_archive_paths_absent": {
+      "Packages/Bitmoji 3D.lsc": true,
+      "Packages/Bitmoji 3D.lsc.meta": true,
+      "Packages/Leaf.lspkg": true,
+      "Packages/Leaf.lspkg.meta": true,
+      "Packages/Motion.lspkg": true,
+      "Packages/Motion.lspkg.meta": true,
+      "Packages/SpectaclesInteractionKit.lspkg": true,
+      "Packages/SpectaclesInteractionKit.lspkg.meta": true,
+      "Packages/SpectaclesUIKit.lspkg": true,
+      "Packages/SpectaclesUIKit.lspkg.meta": true
+    },
+    "forbidden_payload_paths": [],
+    "original_zip_reverified": true,
+    "current_esproj_reverified": true,
+    "current_quarantine_reverified": true,
+    "mismatches": []
+  },
+  "actual_counts": {
+    "backup_payload_files": 59,
+    "asset_files": 58,
+    "scripts_ts": 14,
+    "scripts_ts_meta": 14,
+    "documentation_files": 3,
+    "recovery_manifest_files": 1,
+    "total_files": 63,
+    "packages_entries": 0,
+    "plugins_entries": 0,
+    "total_directories": 10
+  },
+  "completed_utc": "2026-11-02T18:59:21.496229+00:00"
+}

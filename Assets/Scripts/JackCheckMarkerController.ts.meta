@@ -1,0 +1,65 @@
+- !<AssetImportMetadata/d2f21ded-0029-4c5c-8497-08a44166f59a>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 6c8b83a2-492e-48ea-af75-95c7ae0ed897
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 6c8b83a2-492e-48ea-af75-95c7ae0ed897
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 7e5ccf25-f76f-42ba-bbec-cdc1fd976955
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/7e5ccf25-f76f-42ba-bbec-cdc1fd976955>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: e0cb59fa-287f-4c37-99f9-1c3df116b972
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    checkIndex: false
+    colliderSizeCm: false
+    markerDiameterCm: false
+    markerMaterial: false
+    markerMesh: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - checkIndex: !<float> 0.000000
+      markerMesh: !<reference.RenderMesh> 00000000-0000-0000-0000-000000000000
+      markerMaterial: !<reference.Material> 00000000-0000-0000-0000-000000000000
+      markerDiameterCm: !<float> 5.000000
+      colliderSizeCm: !<float> 7.000000
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">JackCheckMarkerController – pinch target</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input float checkIndex {"hint":"Zero-based inspection component index represented by this marker"}'
+    - '// @input Asset.RenderMesh markerMesh {"hint":"Sphere mesh used for the bright marker dot"}'
+    - '// @input Asset.Material markerMaterial {"hint":"Bright unlit material used for the marker dot"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input float markerDiameterCm = 5 {"hint":"Marker visual diameter in centimeters before hover", "widget":"slider", "min":3, "max":8, "step":0.5}'
+    - '// @input float colliderSizeCm = 7 {"hint":"Collider side length in centimeters; larger than the visual for forgiving input", "widget":"slider", "min":5, "max":10, "step":0.5}'
+    - '// @ui {"widget":"group_end"}'

@@ -1,0 +1,114 @@
+{
+  "schemaVersion": 1,
+  "project": "C:/Users/abdul/OneDrive/Documents/JackCheck/JackCheck.esproj",
+  "observedProjectStudioVersion": "5.24.1.26100516",
+  "requestedAlignmentStudioVersion": "5.23.2",
+  "projectStudioVersionEdited": false,
+  "motionRequired": false,
+  "motionEvidence": {
+    "uikit2DeclaredDependencies": [
+      "SpectaclesInteractionKit 2.0.0"
+    ],
+    "uikit2MotionLspkgReferences": 0,
+    "jackCheckMotionReferences": 0
+  },
+  "packageQuarantineDestination": "devpost/package-backup/5.25-packages",
+  "packages": [
+    {
+      "source": "Packages/Leaf.lspkg",
+      "version": "4.0.0",
+      "studioVersion": "5.25.0.26100705",
+      "sha256": "f755cb5a17c784b3351f7180238abae0c3bdc9351a8272e72692e42a7d73106b"
+    },
+    {
+      "source": "Packages/Leaf.lspkg.meta",
+      "sha256": "fb68a66deecf15b3ffa94fe75d53e56ed7e5271cd4c5ed6871b2eb4f7fcbfb92"
+    },
+    {
+      "source": "Packages/SpectaclesInteractionKit.lspkg",
+      "version": "4.0.0",
+      "studioVersion": "5.25.0.26100705",
+      "sha256": "532b077b1c02e10ead5b7e121b50df1889968182e448a8569f6b9f8a43d77a91"
+    },
+    {
+      "source": "Packages/SpectaclesInteractionKit.lspkg.meta",
+      "sha256": "4127ce7f73bb04bd47c1d96476c1fec923965b25a66f62c140eb1d9ec69f4ccd"
+    },
+    {
+      "source": "Packages/SpectaclesUIKit.lspkg",
+      "version": "4.0.0",
+      "studioVersion": "5.25.0.26100705",
+      "sha256": "e583b4a665078a472c0a0f97b9186eef59f2816854aa70a093bc4032d7930dec"
+    },
+    {
+      "source": "Packages/SpectaclesUIKit.lspkg.meta",
+      "sha256": "e59d85305542844e196366064aa273b8788d38e0e0e738659b10c16a57b0dfd5"
+    },
+    {
+      "source": "Packages/Motion.lspkg",
+      "version": "4.0.0",
+      "studioVersion": "5.25.0.26100705",
+      "sha256": "b6e921e539524fda95cd6fe4860d48d9d99d08cc3adb5cba5bb576c42a646c31"
+    },
+    {
+      "source": "Packages/Motion.lspkg.meta",
+      "sha256": "c4f307865bf80c431326bf361e92ff87350484a4503d1f3894aeef32ab9ee8e0"
+    }
+  ],
+  "pluginQuarantineDestination": "devpost/package-backup/stale-plugins",
+  "pluginFolders": [
+    {
+      "source": "Plugins/b5c0453c-8076-44a8-aea3-4b878299e9f9",
+      "files": 0,
+      "bytes": 0,
+      "treeSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "Plugins/b5c0453c-8076-44a8-aea3-4b878299e9f9.tmp",
+      "files": 61,
+      "bytes": 296035,
+      "treeSha256": "81e9930c410c6314aacbaa9b44cc9b9e348c201175c8578ead856dfdf50b4b63"
+    },
+    {
+      "source": "Plugins/0e1758e5-61a8-4485-8c19-f1a2a1f44164",
+      "files": 0,
+      "bytes": 0,
+      "treeSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "source": "Plugins/0e1758e5-61a8-4485-8c19-f1a2a1f44164.tmp",
+      "files": 8,
+      "bytes": 55816,
+      "treeSha256": "3a752588f4b543de07c069d5d8a8ad76ad69e19515159a5ad35a6cf3a95b9868"
+    }
+  ],
+  "preservedInPlace": [
+    {
+      "source": "Packages/Bitmoji 3D.lsc",
+      "version": "10.0.1",
+      "sha256": "b2a0776bda72db8a8d342c85fffd31da2ce5ecd12450c225c02668d29b764178"
+    },
+    {
+      "source": "Packages/Bitmoji 3D.lsc.meta",
+      "sha256": "17c04dd3d96973fa5a41baa7e06ec7583550f0a5e687fce7f693179b0871fd30"
+    }
+  ],
+  "cacheModified": false,
+  "requiredSources": [
+    {
+      "path": "C:/Users/abdul/AppData/Local/Snap/Lens Studio/Bundle/ProjectTemplates/Base Template@5.23.0@52c2faac3f3c6a5d5e6bfb001cdc97e6/Specs Base Template/Packages/SpectaclesInteractionKit.lspkg",
+      "version": "2.0.0",
+      "sha256": "d40740060fd662cb807566b976ef961c353476267817d3e3efaf10970ab318d7"
+    },
+    {
+      "path": "C:/Users/abdul/AppData/Local/Snap/Lens Studio/Bundle/ProjectTemplates/Base Template@5.23.0@52c2faac3f3c6a5d5e6bfb001cdc97e6/Specs Base Template/Packages/SpectaclesUIKit.lspkg",
+      "version": "2.0.0",
+      "sha256": "641bbfd3a555b9cd9daa13c6a40b26fa5af7fbef59ad9563af9474eb4017fc7f"
+    },
+    {
+      "path": "C:/Users/abdul/AppData/Local/Snap/Lens Studio/LibraryComponents/Leaf@2.0.2@73cbdc74f05775baa0d813e425504069/Leaf.lspkg",
+      "version": "2.0.2",
+      "sha256": "98dd53af3a313f4575292bc742b8c8c683e9115b4b73d7ca51d9ff143edc1b52"
+    }
+  ]
+}

@@ -1,0 +1,98 @@
+- !<AssetImportMetadata/735d4430-2ef7-4e9a-9cb1-ecafd6a1b39e>
+  ImportedAssetIds:
+    TypeScriptAsset: !<reference> 665d8f72-ef15-4a3d-ba55-269e44d7073b
+  ImporterName: TypeScriptAssetImporter
+  PrimaryAsset: !<reference> 665d8f72-ef15-4a3d-ba55-269e44d7073b
+  PackageType: NotAPackage
+  LegacyPackagePolicy: ~
+  ExtraData:
+    {}
+  AssetDataMap:
+    TypeScriptAsset: !<own> 937ba2d3-21d5-440f-a466-c0e0cdb5ce6b
+  DependentFiles:
+    []
+  ImporterSettings: !<AssetImporterSettings>
+    {}
+  CompressionSettings: !<own> 00000000-0000-0000-0000-000000000000
+- !<TypeScriptAssetData/937ba2d3-21d5-440f-a466-c0e0cdb5ce6b>
+  SvgIcon: ""
+  SetupScript:
+    code: ""
+  Description: ""
+  VersionMajor: 0
+  VersionMinor: 0
+  VersionPatch: 0
+  VersionPrerelease: ""
+  UpdateOrder: 0
+  ComponentUid: 58bd0faf-e293-4789-ba99-152557f0a38c
+  ExportUid: 00000000-0000-0000-0000-000000000000
+  PackagePolicy: CanBeUnpacked
+  ScriptInputsHidden:
+    debugColliders: false
+    forkTipsMarker: false
+    forkTipsPromptAnchor: false
+    forkUndersideMarker: false
+    forkUndersidePromptAnchor: false
+    handleMarker: false
+    handlePromptAnchor: false
+    handleTagAnchor: false
+    hydraulicMarker: false
+    hydraulicPromptAnchor: false
+    palletJackAnchor: false
+    promptUI: false
+    summaryAnchor: false
+    tagUI: false
+    wheelsMarker: false
+    wheelsPromptAnchor: false
+  ScriptTypesHidden:
+    {}
+  ReadMe: !<reference> 00000000-0000-0000-0000-000000000000
+  DeclarationFile: !<reference> 00000000-0000-0000-0000-000000000000
+  Tags:
+    []
+  Attachments:
+    []
+  DefaultScriptInputs:
+    - palletJackAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      promptUI: !<MappingBased.AssignableType_1> 00000000-0000-0000-0000-000000000000
+      tagUI: !<MappingBased.AssignableType_2> 00000000-0000-0000-0000-000000000000
+      wheelsMarker: !<MappingBased.AssignableType_3> 00000000-0000-0000-0000-000000000000
+      forkTipsMarker: !<MappingBased.AssignableType_4> 00000000-0000-0000-0000-000000000000
+      forkUndersideMarker: !<MappingBased.AssignableType_5> 00000000-0000-0000-0000-000000000000
+      hydraulicMarker: !<MappingBased.AssignableType_6> 00000000-0000-0000-0000-000000000000
+      handleMarker: !<MappingBased.AssignableType_7> 00000000-0000-0000-0000-000000000000
+      wheelsPromptAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      forkTipsPromptAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      forkUndersidePromptAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      hydraulicPromptAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      handlePromptAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      summaryAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      handleTagAnchor: !<reference.SceneObject> 00000000-0000-0000-0000-000000000000
+      debugColliders: false
+  ScriptTypes:
+    -
+      {}
+  InputLines:
+    - '// @ui {"widget":"label", "label":"<span style=\"color: #60A5FA;\">JackCheckMain – guided pallet-jack inspection</span>"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"References"}'
+    - '// @input SceneObject palletJackAnchor {"hint":"Authored floor-level slot for the real-scale pallet jack"}'
+    - '// @input AssignableType_1 promptUI {"hint":"Passive inspection and summary card"}'
+    - '// @input AssignableType_2 tagUI {"hint":"Passive Do not use handle tag"}'
+    - '// @input AssignableType_3 wheelsMarker {"hint":"Wheels marker controller"}'
+    - '// @input AssignableType_4 forkTipsMarker {"hint":"Fork-tips marker controller"}'
+    - '// @input AssignableType_5 forkUndersideMarker {"hint":"Fork-underside marker controller"}'
+    - '// @input AssignableType_6 hydraulicMarker {"hint":"Hydraulic-unit marker controller"}'
+    - '// @input AssignableType_7 handleMarker {"hint":"Handle-and-controls marker controller"}'
+    - '// @input SceneObject wheelsPromptAnchor {"hint":"Wheels prompt position"}'
+    - '// @input SceneObject forkTipsPromptAnchor {"hint":"Fork-tips prompt position"}'
+    - '// @input SceneObject forkUndersidePromptAnchor {"hint":"Fork-underside prompt position"}'
+    - '// @input SceneObject hydraulicPromptAnchor {"hint":"Hydraulic-unit prompt position"}'
+    - '// @input SceneObject handlePromptAnchor {"hint":"Handle prompt position"}'
+    - '// @input SceneObject summaryAnchor {"hint":"Completion summary beside the handle"}'
+    - '// @input SceneObject handleTagAnchor {"hint":"Warning-tag position on the handle"}'
+    - '// @ui {"widget":"group_end"}'
+    - '// @ui {"widget":"separator"}'
+    - '// @ui {"widget":"group_start", "label":"Settings"}'
+    - '// @input bool debugColliders {"hint":"Render collider wireframes for hit-zone diagnosis on preview restart"}'
+    - '// @ui {"widget":"group_end"}'
